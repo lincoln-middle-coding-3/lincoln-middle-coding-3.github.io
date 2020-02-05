@@ -3,3 +3,19 @@ font-family:sans-serif
 margin-left:10px;
 width:640px
 }
+nav ul{
+  clear:both;
+}
+nav il{
+  list-style-type:none;
+  display:inline;
+  padding-left:40px;
+}
+
+a:link{
+  text-decoration:none;
+}
+
+ahover{
+  color:green;
+}
