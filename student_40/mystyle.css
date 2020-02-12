@@ -1,0 +1,17 @@
+header h1{
+  
+  front-family: sans-serif;
+  margin-left:10px;
+}
+nav ul{
+  clear:both;
+}
+
+nav li{
+  list-style-type:none;
+  display:inline;
+  padding-left:40px;
+}
+a:hover{
+  color:green;
+}
