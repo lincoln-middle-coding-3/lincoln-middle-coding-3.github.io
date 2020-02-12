@@ -1,1 +1,19 @@
-
+header h1 {
+  font-family: sans-sans-serif;
+  margin-left 10px;
+  width: 640px;
+}
+nav ul{
+  clear both;
+}
+nav li {
+  list-style-type:none;
+  display: inline;
+  padding-left:40px;
+}
+a: link{
+  text-decoration: none:
+}
+a hover {
+  color: blue;
+}
