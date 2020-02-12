@@ -1,7 +1,7 @@
 header h1{
 font-family:sans-sans-serif;
 margin-left: 10px;
-width: 640px
+width: 640px;
 }
 
 nav ul{
@@ -19,5 +19,5 @@ a:link {
 }
 
 a:hover{
-  color:green
+  color:green;
 }
