@@ -9,10 +9,6 @@ nav ul {
 }
 
 nav li {
-  clear:both;
-}
-
-nav li {
   list-style-type:none;
   display:line;
   padding-left: 40px;
