@@ -1,35 +1,61 @@
-<html>
+<!DOCTYPE html>
 
 <head>
+ <link rel="stylesheet" type="text/css" href="mystyle.css">
+ <style>
+  .column
+  {
+   float: left;
+   padding: 10px
+    height: 300px;
+  }
+  
+  .left{
+   width:75%}
+  .right{
+   width:25%
+  border-left-style: inset;
+  }
+  
+  .row:after{
+   content:"";
+   display:table;
+   ckear:both;
+  }
+  
+  .right p{
+   background-color: pink;
+   padding: 20px;
+  }
+ 
+  
+ </style>
 </head>
 
 <body>
-
+<img src="whoa.jpg" height="100" width="100">
 <header>
-  <a href="/">
-    <img src="logo.png"/>
-  </a>
-
-  <h1>an artists #1 guide
-  </h1>
-
+   <h1>The Coding School</h1>
 </header>
-
 <nav>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="gallery.html">Gallery</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
+  <ul>
+       <li><a href=”index.html”>Home</a></li>
+       <li><a href=”about.html”>About Us</a></li>
+       <li><a href=”gallery.html”>Gallery</a></li>
+       <li><a href=”contact.html”>Contact Us</a></li>
+  </ul>
 </nav>
-
-<div class="row"
-<div class="colum left"style="backround-color:black;" >
-<h2> Welcome to my Website
-  <p> Type your description here</p>
-  <div>
-  
-  
-  Eating, Hiking, Taking pictures, Hanging out with Friends</p>
-  <div class="colum right"style="backround-color:blue;>
+ <div class="row">
+  <div class="column left" style="background-color:#aaa;">
+    <h2>An artists #1 guide</h2>
+    <p>This website is meant for students to see what cool things students can do if they learn how to work with HTML/CSS. Come check it out!</p>
+  </div>
+  <div class="column right" style="background-color:#bbb;">
+    <h2>Top Reveiws</h2>
+   <p>Best website I've ever seen. -Mom</p>
+   <p> Woof -my dog </p>
+  </div>
+</div>
+<footer> Created by Crystal :) </footer>
+</body>
+</html>
