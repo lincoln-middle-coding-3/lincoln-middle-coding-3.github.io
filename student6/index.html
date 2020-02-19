@@ -3,7 +3,32 @@
 
   <head>
     <link rel="stylesheet type="text.css" href="mystyle.css">
-  </head>
+                                                            
+    <style>
+      .column {
+         float: left;
+         padding: 10px;
+         height: 300px;
+         } 
+        .left {                                                   
+         width: 75%;
+         }
+         .right {                                                  
+          width: 25%    
+          border-left-style: inset;                                                  
+          }                                                  
+          .row:after {                                                  
+           content: "";                                                  
+           display: table;
+           clear: both;           
+          }                                                 
+          .right p {                                                 
+            background-color: pink;
+            padding: 20px;
+          }
+         </style>                                                 
+                                                            
+   </head>
   
   <body>
     
@@ -26,7 +51,13 @@
     </nav>
                                   
  <div class="row>
-    <div class="column left">
+    <div class="column left" style=""background-color:black;">
+       <h2>Welcome to my website! :)</h2>
+       <p>On this website you will find out who is better, Tom Brady or Drew Brees</p>
+       </div>
+    <div class="column right" style="background-color:blue;">
+        <h2>These are my hobbies:</h2>
+        <p>Playing Sports, Watching Sports, Hanging out with friends</p>
     </div>
   </div>
             
