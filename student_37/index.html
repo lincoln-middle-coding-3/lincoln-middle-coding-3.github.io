@@ -3,7 +3,29 @@
   <head>
     
     <link rel="stylesheet" type="text/css" href="style.css">
-   
+   <style>
+     .column {
+       float: left;
+       padding: 10px;
+         height: 300px;
+     }
+     .left {
+       width: 75%;
+     }
+     .right {
+       width: 25%;
+         border-left-style: inset;
+     }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both; 
+     }
+     .right p {
+       background-color: pink;
+       padding: 20px
+     }
+    </style>
   </head>
   
 <body>
@@ -26,10 +48,12 @@
   </nav>
   
   <div class="row>
-      <div class="column left">
-        <h2>Welcome to Sophia's website!</h2>
+      <div class="column left" style"=background-color:black;>
+        <h2>Welcome Sophia's website!</h2>
+        <p> On this page, you will learn how to take care of a guinea pigs and also learn some fun tips and tricks! </p>
       </div>
-      <div class="column right">
+      <div class="column right" style"=background-color:blue;">
+        <p> If you have any further questions about guinea pigs, direct them to the local L.A. guinea Pig Shelter.</p>
       </div>
   </div>
   
