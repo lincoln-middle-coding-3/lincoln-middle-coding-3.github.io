@@ -1,6 +1,30 @@
 <html>
 
 <head>
+  <link rel="stylesheet type="text/css" href="index.css">
+ <style>
+                                                        .column {
+                                                        float: left;
+                                                        padding: 10px;
+                                                        height: 300px;
+                                                        }
+                                                        .left {
+                                                        width: 75%
+                                                        }
+                                                        .right {
+                                                        width: 25%;
+                                                        border-left-style: inset;
+                                                        }
+                                                        .row:after {
+                                                        content: "";
+                                                                   display: table;
+                                                                   clear: both;
+                                                        }
+                                                                   .right p {
+                                                                   background-color: white;
+                                                                   padding: 20px;
+                                                                   }
+                                                        </style>
 </head>
 
 <body>
@@ -18,6 +42,15 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
+
+  <div class="row">
+  <div class="column center">
+    <h2>Welcome to my Website!</h2>
+    <p>Here you will learn How to build a PC for any of your online needs, whether you need a desktop computer for gaming, work, productivity, and so much more.</p>
+    </div>
+    <div class="column right"
+     <h2>Remember, if you have any questions, explore the contact page on the dashboard.</h2>
+                             </div>
 
 </body>
 
