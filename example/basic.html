@@ -1,7 +1,37 @@
 <!DOCTYPE html>
+
 <head>
  <link rel="stylesheet" type="text/css" href="mystyle.css">
+ <style>
+  .column
+  {
+   float: left;
+   padding: 10px
+    height: 300px;
+  }
+  
+  .left{
+   width:75%}
+  .right{
+   width:25%
+  border-left-style: inset;
+  }
+  
+  .row:after{
+   content:"";
+   display:table;
+   ckear:both;
+  }
+  
+  .right p{
+   background-color: pink;
+   padding: 20px;
+  }
+ 
+  
+ </style>
 </head>
+
 <body>
 <img src="whoa.jpg" height="100" width="100">
 <header>
@@ -17,12 +47,13 @@
 </nav>
  <div class="row">
   <div class="column left" style="background-color:#aaa;">
-    <h2>Column 1</h2>
-    <p>Some text..</p>
+    <h2>/Welcome to the Coding School website! </h2>
+    <p>This website is meant for students to see what cool things students can do if they learn how to work with HTML/CSS. Come check it out!</p>
   </div>
   <div class="column right" style="background-color:#bbb;">
-    <h2>Column 2</h2>
-    <p>Some text..</p>
+    <h2>Top Reveiws</h2>
+   <p>Best website I've ever seen. -Mom</p>
+   <p> Woof -my dog </p>
   </div>
 </div>
 <footer> Created by Crystal :) </footer>
